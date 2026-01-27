@@ -15,11 +15,6 @@ Los routers disponibles son:
     - pagos_router: Operaciones sobre pagos
 """
 
-from .clientes import clientes_router
-from .vehiculos import vehiculos_router
-from .reservas import reservas_router
-from .pagos import pagos_router
-
 __all__ = [
     "clientes_router",
     "vehiculos_router",
