@@ -1,0 +1,90 @@
+# ====================================
+# Python
+# ====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ====================================
+# Virtual Environment
+# ====================================
+venv/
+ENV/
+env/
+.venv/
+env.bak/
+venv.bak/
+
+# ====================================
+# Environment Variables (IMPORTANTE)
+# ====================================
+.env
+.env.local
+.env.*.local
+
+# ====================================
+# IDE
+# ====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# ====================================
+# Testing
+# ====================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.hypothesis/
+
+# ====================================
+# Logs
+# ====================================
+*.log
+logs/
+
+# ====================================
+# Database
+# ====================================
+*.db
+*.sqlite
+*.sqlite3
+
+# ====================================
+# OS
+# ====================================
+Thumbs.db
+.DS_Store
+
+# ====================================
+# FastAPI
+# ====================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+cython_debug/
