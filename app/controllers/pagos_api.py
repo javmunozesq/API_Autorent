@@ -8,7 +8,6 @@ from app.database import insert_pago, fetch_pagos_by_reserva, DatabaseConnection
 
 logger = logging.getLogger("autorent")
 
-# ✅ IMPORTANTE: Exportar como pagos_router para que main.py lo encuentre
 pagos_router = APIRouter()
 
 
