@@ -1,0 +1,24 @@
+{
+  "name": "api_autorent",
+  "version": "1.0.0",
+  "description": "🚗 Autorent - API REST para Sistema de Alquiler de Vehículos\r 📋 Información del Proyecto\r Alumno: [Javier Muñoz Esqueta]\r Usuario GitHub: @javmunozesq\r Asignatura: Acceso a Datos\r Fecha: Enero 2026",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/javmunozesq/API_Autorent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/javmunozesq/API_Autorent/issues"
+  },
+  "homepage": "https://github.com/javmunozesq/API_Autorent#readme"
+}

@@ -1,6 +1,7 @@
 # app/main.py
 from fastapi import FastAPI, Request
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 import logging
 import importlib
 
@@ -10,6 +11,15 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger("autorent")
 
 app = FastAPI(title="Autorent API")
+
+# CORS — permitir el frontend de Vite en desarrollo
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:5173"],  # cambiar a ["*"] solo para pruebas rápidas si lo prefieres
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 # Include routers explicitly (detect attributes ending with "_router")
 controller_modules = [

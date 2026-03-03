@@ -124,7 +124,7 @@ CREATE INDEX idx_reservas_fechas ON reservas(fecha_inicio, fecha_fin);
 
 -- 12) Datos de ejemplo para categorias
 INSERT INTO categorias (nombre, descripcion) VALUES
-('Económico', 'Vehículos pequeños y eficientes'),
+('Economico', 'Vehiculos pequeños y eficientes'),
 ('Compacto', 'Coches compactos para ciudad'),
 ('SUV', 'Vehículos todoterreno y familiares'),
 ('Lujo', 'Coches de alta gama');
@@ -145,13 +145,13 @@ INSERT INTO vehiculos (matricula, vin, modelo_id, color, kilometraje, estado, pr
 
 -- 15) Datos de ejemplo para clientes
 INSERT INTO clientes (nombre, apellido, email, telefono, direccion, dni_pasaporte) VALUES
-('Juan', 'Pérez', 'juan.perez@example.com', '600111222', 'Calle Falsa 1, Madrid', 'X1234567A'),
-('María', 'García', 'maria.garcia@example.com', '600333444', 'Avenida Real 5, Madrid', 'Y7654321B');
+('Juan', 'Perez', 'juan.perez@example.com', '600111222', 'Calle Falsa 1, Madrid', 'X1234567A'),
+('Maria', 'Garcia', 'maria.garcia@example.com', '600333444', 'Avenida Real 5, Madrid', 'Y7654321B');
 
 -- 16) Datos de ejemplo para empleados
 INSERT INTO empleados (nombre, apellido, email, telefono, puesto, fecha_contratacion) VALUES
-('Laura', 'Sánchez', 'laura.sanchez@autorent.com', '610111222', 'Atención al cliente', '2023-06-01'),
-('Pedro', 'Martín', 'pedro.martin@autorent.com', '610333444', 'Encargado flota', '2022-03-15');
+('Laura', 'Sanchez', 'laura.sanchez@autorent.com', '610111222', 'Atencion al cliente', '2023-06-01'),
+('Pedro', 'Martin', 'pedro.martin@autorent.com', '610333444', 'Encargado flota', '2022-03-15');
 
 -- 17) Ejemplo de reserva y pago asociado
 INSERT INTO reservas (cliente_id, vehiculo_id, empleado_id, fecha_inicio, fecha_fin, estado, total_estimado, notas) VALUES
